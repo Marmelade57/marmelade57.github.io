@@ -1,0 +1,38 @@
+{
+    "donnees" : [
+        {
+            "id" : 1,
+            "diplome" : "Baccalauréat Général",
+            "specialisation" : "Spécialités Numérique et Sciences Informatiques ; Langues, Littératures et Cultures Etrangères et Régionales Anglais ; Mathématiques",
+            "niveau" : "Mention bien",
+            "lieu" : "Lycée Hélène Boucher, Thionville",
+            "tags" : [
+                "Histoire de l'informatique", "Python", "Graphes"
+            ],
+            "description" : "En terminale, j'ai gardé les spécialités NSI et LLCER Anglais. J'ai eu l'occasion de passer la certification de langue Cambridge que j'ai obtenu avec un niveau B2."
+        },
+        {
+            "id" : 2,
+            "diplome" : "BUT Informatique",
+            "specialisation" : "parcours Réalisation d'Applications : développement, conception, validation",
+            "niveau" : "3ème année",
+            "lieu" : "Institut Universitaire Technologique, Metz",
+            "tags" : [
+                "Python", "Graphes", "Algorithmique", "Complexité", "Qualité"
+            ],
+            "description" : ""
+        },
+        {
+            "id" : 3,
+            "diplome" : "Cambridge",
+            "specialisation" : "niveau B2",
+            "niveau" : "3ème année",
+            "lieu" : "Lycée Hélène Boucher, Thionville",
+            "tags" : [
+                "Traduction", ""
+            ],
+            "description" : ""
+        }
+    ]
+}
+    

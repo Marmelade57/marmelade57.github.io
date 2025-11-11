@@ -1,0 +1,127 @@
+@font-face {
+    font-family: "playwrite";
+    src: url("../fonts/playwrite/PlaywriteESDecoGuides-Regular.ttf");
+}
+
+@font-face {
+    font-family: "fleurdeleah";
+    src: url("../fonts/Fleur_De_Leah/FleurDeLeah-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Yusei_Magic";
+    src: url("../fonts/Yusei_Magic/YuseiMagic-Regular.ttf");
+}
+
+.texteSpecial {
+    font-family: "fleurdeleah";
+    font-size: xx-large;
+}
+
+* {
+    margin: 0%;
+    padding: 8px;
+    font-family: "Yusei_Magic";
+}
+
+body {
+    padding: 0%;
+}
+
+header {
+    display: inline-flex;
+    gap: 8px;
+    font-size: xx-large;
+    margin-bottom: 16px;
+}
+
+main {
+    width: auto;
+    max-width : 1000px;
+    /* background-color: rgb(255, 183, 198); */
+    display: block;
+    margin: auto;
+}
+
+section {
+    /* background-color: rgb(214, 179, 248); */
+    display: inline-flex;
+    gap: 16px;
+}
+
+article {
+    /* background-color: rgb(248, 245, 185); */
+    display: inline-flex;
+    border: black 1px solid;
+    border-radius: 16px;
+    background-color: rgba(248, 244, 244, 0.5);
+}
+
+article.presentation div {
+    margin-left: 8px;
+}
+
+article.presentation img {
+    width: 150px;
+}
+
+article.desreseaux {
+    display: block;
+}
+
+article.desreseaux div {
+    display: inline-flex;
+    /* justify-content: center;
+    margin: auto; */
+}
+
+/* article.desreseaux figcaption {
+    font-family: "playwrite";
+} */
+
+/* article.desreseaux {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    } */
+    
+article.cv {
+    display: block;
+}
+
+article.cv a p {
+    /* font-family: "playwrite"; */
+    text-align: center;
+}
+
+h1 {
+    font-size: larger;
+}
+
+/* .unreseau > figure */ img {
+    width: 64px;
+    margin: auto;
+    display: flex;
+}
+
+a {
+    color: black;
+}
+
+.grille {
+    display: grid;
+}
+
+.grille div {
+    display: inline-flex;
+    gap: 8px;
+}
+
+[id^=scolaire], [id^=professionnel] {
+    display: grid;
+    width: max-content;
+}
+
+.selectionne {
+    color: blueviolet;
+}

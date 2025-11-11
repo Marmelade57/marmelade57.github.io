@@ -1,0 +1,47 @@
+{
+    "donnees" : [
+        {
+            "id" : 1,
+            "titre" : "Stage de deuxième année",
+            "lieu" : "MB Music School, Basse-Ham",
+            "tags" : [
+                "NextJS", "Vercel", "Documentation", "Wordpress", "Site Web"
+            ],
+            "description" : "",
+            "date" : ""
+        },
+        {
+            "id" : 2,
+            "titre" : "Mond'O'Min",
+            "lieu" : "IUT de Metz",
+            "tags" : [
+                "HTML", "CSS", "Typescript", "Deno", "IHM", "Projet", "Groupe de 3", "Site Web"
+            ],
+            "description" : "Durant ma première année de BUT, j'ai développé une application de gestion de facture pour le cours de Développement d'Applications avec IHM. La web app contenait une page d'édition de facture (ajout / modification), un tableau d'affichage de la liste des factures.",
+            "date" : ""
+        },
+        {
+            "id" : 3,
+            "titre" : "Pokedex",
+            "lieu" : "IUT de Metz",
+            "tags" : [
+                "Projet", "Groupe de 2", "Site Web"
+            ],
+            "description" : "Pour le cours d'Architecture Logicielle en deuxième année, nous avons dû réaliser un site web pour concrétiser une des architecture que nous avions appris : .",
+            "date" : ""
+        }, 
+        {
+            "id" : 4,
+            "titre" : "To-Do List",
+            "lieu" : "",
+            "tags" : [
+                ""
+            ],
+            "description" : "",
+            "date" : ""
+        }
+    ]
+}
+
+
+
