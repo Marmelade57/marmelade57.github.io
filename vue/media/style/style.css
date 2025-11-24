@@ -42,6 +42,7 @@ main {
     /* background-color: rgb(255, 183, 198); */
     display: block;
     margin: auto;
+    min-height: 70svh;
 }
 
 section {
