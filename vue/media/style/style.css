@@ -22,6 +22,7 @@
     margin: 0%;
     padding: 8px;
     font-family: "Yusei_Magic", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --fini : rgb(183, 255, 193);
 }
 
 body {
@@ -119,9 +120,44 @@ a {
 
 [id^=scolaire], [id^=professionnel] {
     display: grid;
-    width: max-content;
+}
+
+[id^=scolaire]>div.tags, [id^=professionnel]>div.tags {
+    width: 100px;
+    display: block;
+}
+
+:is([id^=scolaire], [id^=professionnel])>div>article>div>small {
+    padding: 0%;
+    margin-right: 8px;
+    a {
+        padding: 0%;
+    }
 }
 
 .selectionne {
     color: blueviolet;
+}
+
+[id^=tags] {
+    display: inline-flex;
+    width: 100%;
+}
+
+.missions {
+    padding: 0%;
+}
+
+[id^=tags]>p {
+    /* padding: 4px;
+    border: black solid 1px; */
+    /* border-radius: 8px; */
+    width: auto;
+    padding-right: 1px;
+    /* background-color: blueviolet;
+    color: white; */
+}
+
+[id^=tags]>p::before {
+    content: "#";
 }
