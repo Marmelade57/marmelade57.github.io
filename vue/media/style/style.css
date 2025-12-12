@@ -3,26 +3,18 @@
     src: url("../fonts/playwrite/PlaywriteESDecoGuides-Regular.ttf");
 }
 
-@font-face {
-    font-family: "fleurdeleah";
-    src: url("../fonts/Fleur_De_Leah/FleurDeLeah-Regular.ttf");
-}
 
 @font-face {
     font-family: "Yusei_Magic";
     src: url("../fonts/Yusei_Magic/YuseiMagic-Regular.ttf");
 }
 
-.texteSpecial {
-    font-family: "fleurdeleah", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: xx-large;
-}
-
 * {
     margin: 0%;
     padding: 8px;
     font-family: "Yusei_Magic", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    --fini : rgb(183, 255, 193);
+    --fini: rgb(183, 255, 193);
+    --lien: mediumorchid;
 }
 
 body {
@@ -137,16 +129,16 @@ a {
 }
 
 .selectionne {
-    color: blueviolet;
+    color: var(--lien);
+}
+
+.missions {
+    padding: 0%;
 }
 
 [id^=tags] {
     display: inline-flex;
     width: 100%;
-}
-
-.missions {
-    padding: 0%;
 }
 
 [id^=tags]>p {
@@ -161,4 +153,64 @@ a {
 
 [id^=tags]>p::before {
     content: "#";
+}
+
+@keyframes tourne {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.abr {
+    padding: 4px;
+    position: relative;
+    cursor: pointer;
+    border: #333 solid 1px;
+    background-color: var(--lien);
+}
+
+.abr .detail {
+    display: none;                 /* on le rend invisible tant qu’on ne le montre pas */
+    position: absolute;
+    bottom: 120%;                  /* au‑dessus du texte (120 % laisse un petit espace) */
+    left: 50%;
+    transform: translateX(-50%);   /* centre horizontalement */
+    padding: 0.4em 0.6em;
+    background: #333;
+    color: #fff;
+    border-radius: 4px;
+    white-space: nowrap;
+    font-size: 0.85rem;
+  z-index: 10;                   /* au‑dessus du reste du contenu */
+    box-shadow: 0 2px 6px rgba(0,0,0,.2);
+}
+
+/* 3️⃣ Petite flèche sous l’infobulle */
+.abr .detail::after {
+    content: "";
+    position: absolute;
+    top: 100%;                     /* collée au bas de la bulle */
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 6px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+}
+
+/* ── COMPORTEMENT SUR ORDINATEUR (hover) ──────────────────────── */
+@media (hover: hover) and (pointer: fine) {
+    .abr:hover .detail,
+    .abr:focus .detail {          /* support clavier */
+       display: block;
+    }
+}
+
+/* ── COMPORTEMENT SUR APPAREILS TOUCHANT (click) ────────── */
+@media (hover: none) and (pointer: coarse) {
+    .abr.active .detail {         /* classe ajoutée par JavaScript */
+        display: block;
+    }
 }

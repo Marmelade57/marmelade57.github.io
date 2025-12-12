@@ -8,37 +8,41 @@
                 "NextJS", "Vercel", "Documentation", "Wordpress", "Site Web"
             ],
             "description" : "",
-            "date" : ""
+            "date" : "avril - mai 2025",
+            "statut" : "en cours"
         },
         {
             "id" : 2,
-            "titre" : "Mond'O'Min",
-            "lieu" : "IUT de Metz",
-            "tags" : [
-                "HTML", "CSS", "Typescript", "Deno", "IHM", "Projet", "Groupe de 3", "Site Web"
-            ],
-            "description" : "Durant ma première année de BUT, j'ai développé une application de gestion de facture pour le cours de Développement d'Applications avec IHM. La web app contenait une page d'édition de facture (ajout / modification), un tableau d'affichage de la liste des factures.",
-            "date" : ""
-        },
-        {
-            "id" : 3,
             "titre" : "Pokedex",
             "lieu" : "IUT de Metz",
             "tags" : [
-                "Projet", "Groupe de 2", "Site Web"
+                "Design pattern", "Groupe de 2", "Typescript", "Architecture des logiciels"
             ],
             "description" : "Pour le cours d'Architecture Logicielle en deuxième année, nous avons dû réaliser un site web pour concrétiser une des architecture que nous avions appris : .",
-            "date" : ""
+            "date" : "février - avril 2025",
+            "statut" : "fini"
         }, 
         {
-            "id" : 4,
-            "titre" : "To-Do List",
-            "lieu" : "",
+            "id" : 3,
+            "titre" : "Mond'O'Min",
+            "lieu" : "IUT de Metz",
             "tags" : [
-                ""
+                "Typescript", "Deno", "IHM", "Groupe de 3", "Site Web"
             ],
-            "description" : "",
-            "date" : ""
+            "description" : "Durant ma première année de BUT, j'ai développé une application de gestion de facture pour le cours de Développement d'Applications avec IHM. La web app contenait une page d'édition de facture (ajout / modification), un tableau d'affichage de la liste des factures.",
+            "date" : "mai 2024",
+            "statut" : "fini"
+        },
+        {
+            "id" : 4,
+            "titre" : "Site e-commerce",
+            "lieu" : "IUT de Metz",
+            "tags" : [
+                "Symfony", "Composer", "Site Web"
+            ],
+            "description" : "Durant mon cinquième semestre de BUT, je dois réaliser un site internet e-commerce en Symfony.",
+            "date" : "octobre 2025 - en cours",
+            "statut" : "en cours"
         }
     ]
 }

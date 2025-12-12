@@ -2,36 +2,40 @@
     "donnees" : [
         {
             "id" : 1,
-            "diplome" : "Baccalauréat Général",
-            "specialisation" : "Spécialités Numérique et Sciences Informatiques ; Langues, Littératures et Cultures Etrangères et Régionales Anglais ; Mathématiques",
-            "niveau" : "Mention bien",
-            "lieu" : "Lycée Hélène Boucher, Thionville",
-            "tags" : [
-                "Histoire de l'informatique", "Python", "Graphes"
-            ],
-            "description" : "En terminale, j'ai gardé les spécialités NSI et LLCER Anglais. J'ai eu l'occasion de passer la certification de langue Cambridge que j'ai obtenu avec un niveau B2."
+            "diplome" : "Master Informatique",
+            "specialisation" : "parcours <a target='_blank' href='https://mim.univ-lorraine.fr/formation/master-informatique-pt-genie-informatique-et-interaction-humain-machine-g2ihm/'>G2IHM</a> ou <a target='_blank' href='https://licence-master-informatique.formation.univ-lorraine.fr/master/m2-parcours-il/m2-parcours-il-orientation-ingenierie-logicielle/'>IL</a> ou <a target='_blank' href='https://licence-master-informatique.formation.univ-lorraine.fr/master/m2-parcours-il/m2-parcours-il-orientation-methodes-formelles-pour-des-logiciels-surs-mf2s/'>MFLS</a>",
+            "niveau" : "",
+            "lieu" : "Metz ou Nancy",
+            "tags" : [],
+            "date" : "2026-2028 ?",
+            "description" : "",
+            "statut": "plus tard"
         },
         {
             "id" : 2,
             "diplome" : "BUT Informatique",
-            "specialisation" : "parcours Réalisation d'Applications : développement, conception, validation",
+            "specialisation" : "parcours <span class='abr' tabindex='0' aria-describedby='detail-1'>R.A.<span id='detail-1' class='detail' role='tooltip'>Réalisation d'Applications : développement, conception, validation</span></span><a href='une_abreviation.html?abr=RA'>(i)</a>",
             "niveau" : "3ème année",
             "lieu" : "Institut Universitaire Technologique, Metz",
             "tags" : [
                 "Python", "Graphes", "Algorithmique", "Complexité", "Qualité"
             ],
-            "description" : ""
+            "date" : "2023-2026",
+            "description" : "",
+            "statut": "en cours"
         },
         {
             "id" : 3,
-            "diplome" : "Cambridge",
-            "specialisation" : "niveau B2",
-            "niveau" : "3ème année",
+            "diplome" : "Baccalauréat Général",
+            "specialisation" : "Spécialités <span class='abr' tabindex='0' aria-describedby='detail-2'>NSI<span id='detail-2' class='detail' role='tooltip'>Numérique et Sciences Informatiques</span></span><a href='une_abreviation.html?abr=NSI'>(i)</a>; <span class='abr' tabindex='0' aria-describedby='detail-3'>LLCER<span id='detail-3' class='detail' role='tooltip'>Langues, Littératures et Cultures <br /> Etrangères et Régionales Anglais</span></span><a href='une_abreviation.html?abr=LLCER'>(i)</a>; Mathématiques",
+            "niveau" : "Mention bien",
             "lieu" : "Lycée Hélène Boucher, Thionville",
             "tags" : [
-                "Traduction", ""
+                "Histoire de l'informatique", "Python", "Graphes"
             ],
-            "description" : ""
+            "date" : "2020-2023",
+            "description" : "En terminale, j'ai gardé les spécialités NSI et LLCER Anglais. J'ai eu l'occasion de passer la certification de langue Cambridge que j'ai obtenu avec un niveau B2.",
+            "statut": "fini"
         }
     ]
 }

@@ -2,12 +2,15 @@
     "donnees": [
         {
             "id": 1,
-            "profession" : "",
-            "lieu" : "",
-            "missons" : [
+            "profession" : "Stagiaire en développement web",
+            "lieu" : "MB Music School, Basse-Ham",
+            "missions" : [
+                "Recueil de besoin", "Communication", "IHM", "Site web", "Next JS"
+            ],
+            "liens" : [
                 "link:/projet"
             ],
-            "dates" : ""
+            "dates" : "avril-mai 2025"
         }
     ]
 }
