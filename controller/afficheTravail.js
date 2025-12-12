@@ -9,7 +9,7 @@ import("../model/travail.json", { with: { type: "json" } })
     });
 
 function traiteDonneesTravail(donnees) { 
-    const section = document.querySelector("section#scolaire");
+    const section = document.querySelector("section#profession");
     section.className = "grille";
     let h1 = document.createElement("h1");
     h1.innerText = "Parcours professionnel";

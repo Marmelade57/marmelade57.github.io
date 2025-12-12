@@ -9,7 +9,7 @@ import("../model/certifications.json", { with: { type: "json" } })
     });
 
 function traiteDonneesCertification(donnees) { 
-    const section = document.querySelector("section#scolaire");
+    const section = document.querySelector("section#certification");
     section.classList = "grille";
     let h1 = document.createElement("h1");
     h1.innerText = "Certifications";
