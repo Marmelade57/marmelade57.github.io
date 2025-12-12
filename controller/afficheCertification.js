@@ -9,10 +9,7 @@ import("../model/certifications.json", { with: { type: "json" } })
     });
 
 function traiteDonneesCertification(donnees) { 
-    const main = document.querySelector("main");
-    
-    let section = document.createElement("section");
-    section.id="certification";
+    const section = document.querySelector("section#scolaire");
     section.classList = "grille";
     let h1 = document.createElement("h1");
     h1.innerText = "Certifications";
@@ -59,6 +56,5 @@ function traiteDonneesCertification(donnees) {
         article.append(h2,small,p,a);
         section.appendChild(article);
     }
-    main.appendChild(section);
 
 }

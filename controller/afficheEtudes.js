@@ -9,10 +9,7 @@ import("../model/etudes.json", { with: { type: "json" } })
     });
 
 function traiteDonneesEtudes(donnees) { 
-    const main = document.querySelector("main");
-    
-    let section = document.createElement("section");
-    section.id="scolaire";
+    const section = document.querySelector("section#scolaire");
     section.classList = "grille";
     let h1 = document.createElement("h1");
     h1.innerText = "Parcours scolaire";
@@ -67,6 +64,5 @@ function traiteDonneesEtudes(donnees) {
         div.appendChild(article)
         section.appendChild(div);
     }
-    main.appendChild(section);
 
 }
