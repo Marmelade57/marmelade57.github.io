@@ -1,0 +1,27 @@
+section#projets {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+section#projets article {
+  display: block;
+}
+
+section#projets article a {
+  display: grid;
+  justify-items: end;
+}
+
+section#projets article p {
+  display: flex;
+}
+
+@media screen and (width<1280px) {
+}
+
+@media screen and (width<768px) {
+  section#projets {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}

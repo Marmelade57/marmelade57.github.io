@@ -1,0 +1,24 @@
+{
+    "donnees" : [
+        {
+            "id" : "NSI",
+            "signification" : "Numérique et Sciences Informatiques",
+            "details" : "Dans ce cours, j'ai appris les bases de programmation en python, requêtes de bases de données"
+        },
+        {
+            "id" : "LLCER",
+            "signification" :"Langues, Littératures et Cultures Etrangères et Régionales Anglais",
+            "details" : "Ce cours m'a permis de développer mes connaissances concernant la culture anglophone et la langue anglaise. J'ai aussi eu l'occasion de passer la certification <a href='une_certification.html?id=1'>Cambridge B2</a> grâce à mon choix de spécialité."
+        },
+        {
+            "id" : "RA",
+            "signification" :"Réalisation d'Applications : développement, conception, validation",
+            "details" : "Cette abréviation correspond au parcours que je suis durant mon BUT Informatique. <a href='https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2023-12/informatique-30855.pdf'>Programme nationnal du BUT Informatique</a>."
+        },
+        {
+            "id" : "",
+            "signification" :"",
+            "details" : ""
+        }
+    ]
+}

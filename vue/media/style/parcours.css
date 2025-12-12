@@ -1,0 +1,53 @@
+.grille {
+    display: grid;
+}
+
+.grille div {
+    display: inline-flex;
+    gap: 8px;
+}
+
+section#scolaire>div {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+[id^="scolaire"],
+[id^="profession"],
+[id^="certification"] {
+    display: grid;
+}
+
+/* [id^=scolaire]>div.tags, [id^=professionnel]>div.tags {
+    width: 100px;
+    display: block;
+} */
+
+:is([id^="scolaire"], [id^="profession"], [id^="certification"])>div>article>div>small {
+    padding: 0;
+    margin-right: 8px;
+}
+
+:is([id^="scolaire"], [id^="profession"], [id^="certification"])>div>article>div>small a {
+    padding: 0%;
+    margin: 0;
+    margin-left: auto;
+}
+
+.missions {
+    padding: 0%;
+}
+
+@media screen and (width<1280px) {
+    section#scolaire>div {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media screen and (width<768px) {
+    section#scolaire>div {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}

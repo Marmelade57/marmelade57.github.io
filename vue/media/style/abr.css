@@ -1,0 +1,49 @@
+.abr {
+    padding: 4px;
+    position: relative;
+    cursor: pointer;
+    border: #333 solid 1px;
+    background-color: var(--lien);
+}
+
+.abr .detail {
+    display: none;
+    position: absolute;
+    bottom: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.4em 0.6em;
+    background: #333;
+    color: #fff;
+    border-radius: 4px;
+    white-space: nowrap;
+    font-size: 0.85rem;
+    z-index: 10;
+    box-shadow: 0 2px 6px rgba(0,0,0,.2);
+}
+
+
+.abr .detail::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 6px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+}
+
+
+@media (hover: hover) and (pointer: fine) {
+    .abr:hover .detail,
+    .abr:focus .detail {
+       display: block;
+    }
+}
+
+@media (hover: none) and (pointer: coarse) {
+    .abr.active .detail {
+        display: block;
+    }
+}

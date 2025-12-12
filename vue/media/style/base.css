@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "Yusei_Magic";
+  src: url("../fonts/Yusei_Magic/YuseiMagic-Regular.ttf");
+}
+
+* {
+  margin: 0%;
+  padding: 8px;
+  font-family: "Yusei_Magic", "Lucida Sans", "Lucida Sans Regular",
+    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  --fini: rgb(183, 255, 193);
+  --lien: mediumorchid;
+}
+
+body {
+  padding: 0%;
+}
+
+header {
+  display: inline-flex;
+  gap: 8px;
+  font-size: xx-large;
+  margin-bottom: 16px;
+}
+
+main {
+  width: auto;
+  max-width: 1000px;
+  display: block;
+  margin: auto;
+  min-height: 70svh;
+}
+
+section {
+  display: inline-flex;
+  gap: 16px;
+}
+
+article {
+  display: inline-flex;
+  border: black 1px solid;
+  border-radius: 16px;
+  background-color: rgba(248, 244, 244, 0.5);
+}
+
+h1 {
+  font-size: larger;
+}
+
+img {
+  width: 64px;
+  margin: auto;
+  display: flex;
+}
+
+a {
+  color: black;
+}
+
+.selectionne {
+  color: var(--lien);
+}
+
+@media screen and (width<1280px) {
+  header {
+    grid-template-columns: repeat(3, minmax(0,1fr));
+  }
+}
+
+@media screen and (width<768px) {
+  header {
+    display: grid;
+    gap: 2px;
+    font-size: xx-large;
+    margin: auto;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,29 @@
+section {
+    display:block;
+}
+
+article {
+    display:block;
+}
+
+p {
+    display:flex;
+}
+
+#statut {
+    display:flex;
+}
+
+@media screen and (width<1280px) {
+}
+
+@media screen and (width<768px) {
+    p#listeTags {
+        display:grid;
+        grid-template-columns: repeat(2, minmax(0,1fr));
+        margin: auto;
+        padding: 0;
+        width: fit-content;
+        text-align: center;
+    }
+}

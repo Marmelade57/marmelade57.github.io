@@ -1,0 +1,16 @@
+{
+    "donnees" : [
+        {
+            "id" : 1,
+            "certification" : "Cambridge",
+            "niveau" : "niveau B2",
+            "lieu" : "Lycée Hélène Boucher, Thionville",
+            "tags" : [
+                "Utilisation de l'anglais", "Expression orale", "Expression écrite", "Compréhension orale", "Compréhension écrite"
+            ],
+            "annee" : 2023,
+            "description" : "Durant ma terminale, j'ai eu l'occasion de passer l'examen Cambridge B2. J'ai obtenu le niveau visé. Si vous souhaitez vérifier mes propos, contactez moi pour obtenir mon « Statement of Results » (<a href='https://www.cambridgeenglish.org/fr/Images/455297-checking-results-online-fr.pdf'>Plus d'information sur la vérification des résultats du cambridge</a>).",
+            "statut": "fini"
+        }
+    ]
+}
