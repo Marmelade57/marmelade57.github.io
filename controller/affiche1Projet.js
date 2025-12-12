@@ -43,7 +43,8 @@ function traiteDonnees(donnees) {
     article.appendChild(statut);
 
     let description = document.createElement("p");
-    description.innerText = donnees[idProjet].description;
+    description.style.display = "block";
+    description.innerHTML = donnees[idProjet].description;
     article.appendChild(description);
 
     /* let lien = document.createElement("a");

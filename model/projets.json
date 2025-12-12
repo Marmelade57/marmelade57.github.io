@@ -43,6 +43,17 @@
             "description" : "Durant mon cinquième semestre de BUT, je dois réaliser un site internet e-commerce en Symfony.",
             "date" : "octobre 2025 - en cours",
             "statut" : "en cours"
+        },
+        {
+            "id" : 5,
+            "titre" : "TP découverte docker",
+            "lieu" : "IUT de Metz",
+            "tags" : [
+                "Docker", "Nginx", "Ubuntu", "Hébergement", "Virtualisation"
+            ],
+            "description" : "À l'occasion du cours de Visualisation Avancée, Gabin Humbert et moi avons collaboré pour héberger ce site portfolio sur un Docker. Pour cela, nous avons utilisé le système d'exploitation Ubuntu (adapté à la Dockerisation) ainsi que le logiciel libre Nginx. Pour plus de détails, consultez <a href='https://docs.google.com/document/d/1QjvtWi6Pqy-mRLlZhnTs7cd8uYMx2kfgd3c381cSRlI/' style='padding:0'>ce document docs</a>.",
+            "date" : "12 décembre 2025",
+            "statut" : "en cours"
         }
     ]
 }
